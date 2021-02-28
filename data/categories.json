@@ -1,0 +1,98 @@
+db.categories.insertMany([
+    {
+        "_id":"1",
+        "name": "Wedding",
+        "cateimg":"https://i.imgur.com/Er5eUx8.jpg",
+        "description":"A wedding is a blissful ceremony where two people are united in marriage. Weddings are always special as it is the only occasion they are starting their new life together forever. There are many customs and rites in a wedding ceremony and varies according to community, culture, and religion. Each community has its own way of celebrating Weddings and all are mind blowing and extraordinary. Weddings are about celebrations, decorations, fineries and entertainments and which lasts for days in some parts of the world. And this beautiful get together of families and friends bless the newly bonded couple a happy and long lasting married life."
+    },
+    {
+        "_id":"2",
+        "name": "Engagement",
+        "cateimg":"https://i.imgur.com/eZJfqRp.jpg",
+        "description":"Engagement ceremony is the first step of their life journey, and it also helps to know the people who want to get married, and also the time gap between a marriage invitation and a marriage. During this Time, the two ones are said to be betrothed, intended, affianced, engaged to be married, or simply engaged. This Engagement ceremony, as the name suggests, is held to make the engagement ceremonious between the two families who agree upon going together with the wedding. ... Many people outside India find it hard to believe the scale of the ceremony and how it involves so many rituals for an act as simple as exchanging a pair of rings. it was possible that the couples might not even know each other until they met at the Big ceremony. Engagement is also to send out wedding invitations. Being engaged was a more profound experience, Back in the day, betrothal had a specific societal role to play in a man or woman’s life. It was a protected status, much like a marriage. Back in the day, Engagement had a specific societal role to play in a man or woman’s life. It was a protected status, much like a marriage. Simply Engagement is marriage conformation between the two people who want to get married, For Bride, side Engagement is a big function like wedding, they give more importance to it"
+    },
+     {
+        "_id":"3",
+        "name": "Save the Date",
+        "cateimg":"https://i.imgur.com/Nr539Gk.jpg",
+        "description":"Really, the importance of Save the Dates is so much more. Not only do Save the Dates helps your guests to do just that – Save the Date on their mind – but this is a great chance to pass along some best planning information. Save the Dates allow you to add travel details for your out-of-town guests, provide your wedding website (even if it’s not completely filled out), and mostly allow your guests to start planning for your wedding! The tricky part about Save The Date is that they are relatively recent inventions in the world of weddings. If you want to get wildly creative with your save the dates, go for it. They are a good place to get a little crazy, If you want Save the date video is one the great idea for creating a mesmerizing save the date, Not only will the guests put it on their calendar, but they may even start making some arrangements to ensure they’re able to be there. save the dates gives you a special feeling and it is the best opportunity for knowing each other, and also provides a newness of being a relation. Save The Date is Nothing but sweet Nothings."
+    },
+     {
+        "_id":"4",
+        "name": "Reception",
+        "cateimg":"",
+        "description":"A wedding reception may be a party typically control once the completion of a wedding ceremony as cordial reception for those that have attended the marriage, thence the name reception: the couple receive society, within the style of family and friends, for the primary time as a marriage. Hosts give their selection of food and drink, though a marriage cake is common. amusing guests once a marriage ceremony is ancient in most societies, and may last anyplace from half an hour to several hours or maybe days. Most wedding receptions area unit created within the evening for dinner but, the couple could want a tiffing, brunch, or maybe meal. Ultimately the marriage chooses the small print and placement of the reception."
+    },
+     {
+        "_id":"5",
+        "name": "Post Wedding",
+        "cateimg":"",
+        "description":"The real bonding between a newly-wed couple takes place after the ceremony is over and the last guest has left. Take beautiful and mesmerizing shots of the couple together - holding hands, walking in some beautiful place or just sitting close to each other sharing a memorable time - with the post-wedding shoot. It keeps the newness of your love alive post wedding shoots breaks the monotony and create a cool mind of life and adds charm. It is like getting into an activity over the weekend and enjoy greatly the time spend posing or just like that. Your lovely bond grows deep and deep as you see. The post-wedding videos and pictures time and again Post wedding shoots give you many reasons to cherish the memories a years ago, like a flip through the album the pictures do the talking. So post-wedding is a keepsake........."
+    },
+    {
+        "_id":"6",
+        "name": "Christian Wedding",
+        "cateimg":"",
+        "description":"Our concept of a typical Christian wedding revolves around frothy white clothes, tons of flora, and lovely flower women. Subtle and stylish, Christian weddings are imaginative and prescient in monochrome, however, the scenario is a little distinctive as some distance as Christian weddings in India. Although the basic essence of the rituals is the same as that of a traditional Christian wedding, a bunch of ethnic Indian rituals has impacted almost all communities during the united states. They're a charming blend of the minimum Hollywood style Christian wedding ceremony we see within the films with adherence to pre and post wedding rituals that are essentially very Indian. Right from the marriage attires to the bridal jewelry, Indian Christian weddings are quite distinct from what we believe."
+    },
+    {
+        "_id":"7",
+        "name": "Hindu Wedding",
+        "cateimg":"",
+        "description":"Hindu marriage is an event, often spanning over days consisting of various customs and traditions. Marriage is a divine solemnity; that no one tends to question. The central point of a Hindu wedding is horoscope. Based on it further decisions are made. Merging of two souls is done in the Hindu wedding for the lifetime of the twain. The marriage is done in front of the fire (Agni Sakshi) as a witness. The rituals of Hindu marriages are varied from caste to caste and region to region. There are various types of Hindu marriages such as Brahma marriage, Arsha marriage, etc... Wedding ceremonies of them are very colorful and their celebrations are depending on their social and economical status.."
+    },
+    {
+        "_id":"8",
+        "name": "Muslim Wedding",
+        "cateimg":"https://i.imgur.com/CYGgHRf.jpg",
+        "description":"Islam is one of the outstanding religions within the world with over 1.6 billion zealous followers of the faith. A wedding ceremony is a necessary part of Islamic subculture and is mandated by the Holy Quran as one of the number one obligations of a Muslim. It allows a Muslim to preserve and multiply Islam via his family and destiny generations. Muslim wedding ceremony traditions vary substantially based on countries and regions, but at its heart, the ‘Nikah’ ceremony stays the same. In India, extra than 172 million human beings observe traditional Islamic wedding rituals which can be a unique combination of conventional Islamic customs in addition to adapting the pre-current rituals of the multi-cultural Indian sub-continent."
+    },
+    {
+        "_id":"9",
+        "name": "Mehendi Wedding",
+        "cateimg":"https://i.imgur.com/6B3rPqQ.jpg",
+        "description":"Mehendi is but any other traditional yet interesting pre-wedding ceremony. In Indian weddings, loads of emphasis is given on customs and rituals and the same is reflected inside the Mehndi rite earlier than marriage. Mehendi rite has to turn out to be such an essential part of the marriage ceremony that it cannot be imagined without it. Moreover, Mehndi is one of the 16 adornments of the bride and her splendor is incomplete without it. Mehndi ceremony typically takes area just before marriage. In line with the ritual, the bride does no longer step out of the residence after this ceremony. Mehndi ceremony is largely prepared by the own family of the bride and is usually a non-public affair which takes the region in the presence of buddies, spouse and children and family participants. However, the scale of the rite relies upon man or woman desire. Some humans rejoice it with first-rate pomp and display."
+    },
+    {
+        "_id":"10",
+        "name": "Baptism",
+        "cateimg":"https://i.imgur.com/frnPi84.jpg",
+        "description":"The exact information of the baptism ceremony range amongst Christian denominations. Many observe a prepared rite, referred to as a rite or liturgy. In a regular ceremony, dad and mom or godparents bring their child to their congregation's priest or minister. The rite used would be the same as that denomination's ceremony for adults, i.e., via pouring holy water or by sprinkling water. Jap Orthodox and Eastern Catholic traditions education overall immersion and baptize infants in a font, and this exercise is likewise the primary approach indexed in the baptismal ritual of the Roman Catholic, even though pouring is the usual practice in the Latin branch of Catholicism.At the moment of baptism, the minister utters the phrases 'I baptize you (or, 'The servant of God (call) is baptized') in the call of the father, and of the Son, and of the Holy Spirit.'"
+    },
+    {
+        "_id":"11",
+        "name": "First Holy Communion",
+        "cateimg":"",
+        "description":"The sacrament of First Holy Communion is an important tradition for Catholic families. It is the blessed and happiest day for the whole family. The child who accepts holy sacrament waiting excitedly about the holy moments. Most of the people make this function as small Mainly in church, all the functions are happening. The special dress is worn on that day; that is the white color dress for both boys and girls. The clothing is often white to symbolize purity. It is an important tradition of Catholic families. Christians consider that accepting the bread and wine as Christ's body and blood. It is to be considered as a holiest and important occasions in a Roma Catholic life. A valuable day is first communion day."
+    },
+    {
+        "_id":"12",
+        "name": "Ordination",
+        "cateimg":"",
+        "description":"Ordination is the procedure with the aid of which individuals are consecrated, this is, set apart as clergy to perform various spiritual rites and ceremonies. The procedure and ceremonies of ordination range with the aid of religion and denomination. One who is in preparation for, or who is undergoing the system of ordination is every so often known as an ordinand. The liturgy used at ordination is now and again known as an ordination."
+    },
+    {
+        "_id":"13",
+        "name": "Maternity & Kids",
+        "cateimg":"",
+        "description":"The advent of your sweet baby is right around the corner, and you might be feeling happy other than any moments in your life. Depending on how you feel it might be swaying your decision on whether to take maternity photos or not. Perhaps you don’t feel graceful or glamorous carrying around a melon, or maybe you just aren’t sure on whether a professional photo shoot fits into your budget at the moment. While these are thoughts to consider, there are so many good reasons to capture this extraordinary time that put to rest any fears you might have. If you aren’t feeling great during your pregnancy, you must capture that precious moment that photos make your memory sweeter. Taking time out to capture this exciting time helps to remember not to sweat a couple of extra pounds here and there and enjoy the ride. Everyone has been taught from birth how to get a kid to smile; yes kids smile is sparkling our mind like rubies so capturing that moments are important for future memories. A photograph is an image that is recorded that the wonderful moments for a lifetime. The main Purpose of kids photograph is to capture some amazing moments. Moments of happiness, fun, friendship with parents, etc. We would like our kids beautiful moments to last, to remember them and to share them with others..."
+    },
+    {
+        "_id":"14",
+        "name": "Opening Ceremony",
+        "cateimg":"",
+        "description":"A gap ceremony, grand establishing, or ribbon-slicing ceremony marks the official commencing of a newly-built location or the begin of an event. Within the case of bodily institutions, its grand beginning is probably preceded with the aid of a 'soft beginning' or 'smooth release' in which the establishment begins to function with little advertising, to permit testing of operations, processes, and facilities."
+    },
+    {
+        "_id":"15",
+        "name": "Birthday Party",
+        "cateimg":"",
+        "description":"Birthday events are an extremely good raise to any infant's shallowness. Making them sense like kings (or queens) for the day is one of the exceptional (and most lasting) gifts you may deliver them."
+    },
+    {
+        "_id":"16",
+        "name": "Fashion Photography",
+        "cateimg":"",
+        "description":"Fashion Photography is a totally different from other photography that has been submitted to showcase clothing and alternative fashion. Fashion photography is very common in Vogue-like ads or fashion magazines, lifestyle, or eh. Fashion Photography has its own beauty that introduce clothes and fashions with virtual locations or accessories."
+    }
+])
