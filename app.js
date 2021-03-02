@@ -8,8 +8,6 @@ const MongoClient = mongo.MongoClient;
 const mongourl="mongodb+srv://amandabivera:ammu123@cluster0.g2iwr.mongodb.net/biveraphotography?retryWrites=true&w=majority";
 let db;
 col_name1="categories";
-col_name2="features";
-col_name3="contact";
 
 app.use(cors());
 app.use(bodyParser.urlencoded({extended:true}));
@@ -51,8 +49,8 @@ app.get('/features',(req,res) => {
 })
 
 //post contact
-app.post('/contact',(req,res) => {
-    db.collection(col_name3).insert(req.body,(err,result) => { 
+app.post('/addcontact',(req,res) => {
+    db.collection('contact').insert(req.body,(err,result) => { 
         if(err) throw err;
         res.send(result);
     })
@@ -60,7 +58,7 @@ app.post('/contact',(req,res) => {
 
 //contact route
 app.get('/getcontact',(req,res) => {
-    db.collection(col_name3).find().toArray((err,result)=>{
+    db.collection('contact').find().toArray((err,result)=>{
         if(err) throw err;
         res.send(result);
     })
