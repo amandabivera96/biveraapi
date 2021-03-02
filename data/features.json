@@ -1,0 +1,74 @@
+db.features.insertMany([
+    {
+        "_id":"1",
+        "fname":"The Royal Couple Photo Shot!"
+    },
+    {
+        "_id":"2",
+        "fname":"Destination Elopements"
+    },
+    {
+        "_id":"3",
+        "fname":"Unplugged Ceremonies"
+    },
+    {
+        "_id":"4",
+        "fname":"Drone Aerial Photography"
+    },
+    {
+        "_id":"5",
+        "fname":"Same Day Edits"
+    },
+    {
+        "_id":"6",
+        "fname":"Teasers"
+    },
+    {
+        "_id":"7",
+        "fname":"Black And White Shots"
+    },
+    {
+        "_id":"8",
+        "fname":"Smoke Bombs"
+    },
+    {
+        "_id":"9",
+        "fname":"Underwater Shots"
+    },
+    {
+        "_id":"10",
+        "fname":"Dramatic Locations"
+    },
+    {
+        "_id":"11",
+        "fname":"Selfie Shots"
+    },
+    {
+        "_id":"12",
+        "fname":"First Look Photos"
+    },
+    {
+        "_id":"13",
+        "fname":"Proposal Shots"
+    },
+    {
+        "_id":"14",
+        "fname":"Fun Images"
+    },
+    {
+        "_id":"15",
+        "fname":" Couple Dance!"
+    },
+    {
+        "_id":"16",
+        "fname":"The First Kiss!"
+    },
+    {
+        "_id":"17",
+        "fname":"Wedding Vows!"
+    },
+    {
+        "_id":"18",
+        "fname":"Short Film Shoot"
+    }
+])
