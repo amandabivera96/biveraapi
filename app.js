@@ -49,6 +49,14 @@ app.get('/features',(req,res) => {
     })
 })
 
+//contact route
+app.get('/contact',(req,res) => {
+    db.collection('contact').find().toArray((err,result)=>{
+        if(err) throw err;
+        res.send(result);
+    })
+})
+
 //connection with mongo server
 MongoClient.connect(mongourl,(err,connection) => {
     if(err) console.log(err);
