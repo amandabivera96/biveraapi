@@ -50,7 +50,7 @@ app.get('/features',(req,res) => {
 })
 
 //post contact
-app.post('/postcontact',(req,res) => {
+app.post('/contact',(req,res) => {
     db.collection('contact').insert(req.body,(err,result) => { 
         if(err) throw err;
         res.send('data added');
@@ -58,7 +58,7 @@ app.post('/postcontact',(req,res) => {
 })
 
 //contact route
-app.get('/contact',(req,res) => {
+app.get('/getcontact',(req,res) => {
     db.collection('orders').find().toArray((err,result)=>{
         if(err) throw err;
         res.send(result);
