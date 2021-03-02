@@ -49,13 +49,14 @@ app.get('/features',(req,res) => {
     })
 })
 
-//contact route
-app.get('/contact',(req,res) => {
-    db.collection('contact').find().toArray((err,result)=>{
+//post contact
+app.post('/postcontact',(req,res) => {
+    db.collection('contact').insert(req.body,(err,result) => { 
         if(err) throw err;
-        res.send(result);
+        res.send('data added');
     })
 })
+
 
 //connection with mongo server
 MongoClient.connect(mongourl,(err,connection) => {
