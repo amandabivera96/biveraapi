@@ -59,7 +59,7 @@ app.post('/postcontact',(req,res) => {
 
 //contact route
 app.get('/contact',(req,res) => {
-    db.collection('orders').find()..toArray((err,result)=>{
+    db.collection('orders').find().toArray((err,result)=>{
         if(err) throw err;
         res.send(result);
     })
