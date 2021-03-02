@@ -60,7 +60,7 @@ app.post('/contact',(req,res) => {
 
 //contact route
 app.get('/getcontact',(req,res) => {
-    db.collection('orders').find().toArray((err,result)=>{
+    db.collection(col_name3).find().toArray((err,result)=>{
         if(err) throw err;
         res.send(result);
     })
