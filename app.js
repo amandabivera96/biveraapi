@@ -9,6 +9,7 @@ const mongourl="mongodb+srv://amandabivera:ammu123@cluster0.g2iwr.mongodb.net/bi
 let db;
 col_name1="categories";
 col_name2="features";
+col_name3="contact";
 
 app.use(cors());
 app.use(bodyParser.urlencoded({extended:true}));
@@ -51,9 +52,9 @@ app.get('/features',(req,res) => {
 
 //post contact
 app.post('/contact',(req,res) => {
-    db.collection('contact').insert(req.body,(err,result) => { 
+    db.collection(col_name3).insert(req.body,(err,result) => { 
         if(err) throw err;
-        res.send('data added');
+        res.send(result);
     })
 })
 
