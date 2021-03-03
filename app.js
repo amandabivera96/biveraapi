@@ -51,14 +51,15 @@ app.get('/features',(req,res) => {
 //work route
 app.get('/works',(req,res) => {
     var condition={};
+    //get work on basis of worktype & workname
+    if(req.query.worktype && req.query.wname){
+    condition = {$and:[{worktype:req.query.worktype},{wname:req.query.wname}]}
+    }
     //get work on basis of worktype
-    if(req.query.worktype){
+    else if(req.query.worktype){
         condition = {worktype:req.query.worktype}
     }
-    //get work on basis of worktype & workname
-    else if(req.query.worktype && req.query.wname){
-        condition = { $and:[{worktype:req.query.worktype},{wname:req.query.wname}]}
-    }
+   
     db.collection('works').find(condition).toArray((err,result) => {
         if(err) throw err;
         res.send(result);
