@@ -32,7 +32,7 @@ app.get('/categories',(req,res)=>{
     var condition={};
     //get category on basis of catename
     if(req.query.catename){
-        condition = {"catename":req.query.catename}
+        condition = {catename:req.query.catename}
     }
     db.collection('categories').find(condition).toArray((err,result)=>{
         if(err) throw err;
@@ -53,7 +53,11 @@ app.get('/works',(req,res) => {
     var condition={};
     //get work on basis of worktype
     if(req.query.worktype){
-        condition = {"worktype":req.query.worktype}
+        condition = {worktype:req.query.worktype}
+    }
+    //get work on basis of worktype & workname
+    else if(req.query.worktype && req.query.wname){
+        condition = { $and:[{worktype:req.query.worktype},{wname:req.query.wname}]}
     }
     db.collection('works').find(condition).toArray((err,result) => {
         if(err) throw err;
