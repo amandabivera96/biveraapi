@@ -1,0 +1,32 @@
+db.works.insertMany([
+    {
+        "_id":"1",
+        "worktype":"Baptism",
+        "wname":"Ryan Xavier",
+        "description":"abcde",
+        "photos":
+        [
+            {
+                "photo1":"https://i.imgur.com/eZJfqRp.jpg",
+                "photo2":"https://i.imgur.com/frnPi84.jpg",
+                "photo3":"https://i.imgur.com/Nr539Gk.jpg"
+            }
+        ],
+        "videos":"https://www.youtube.com/watch?v=jfK26ZqdlkY"
+    },
+    {
+        "_id":"2",
+        "worktype":"Wedding",
+        "wname":"Alfrin-Metto",
+        "description":"abcde",
+        "photos":
+        [
+            {
+                "photo1":"https://i.imgur.com/eZJfqRp.jpg",
+                "photo2":"https://i.imgur.com/frnPi84.jpg",
+                "photo3":"https://i.imgur.com/Nr539Gk.jpg"
+            }
+        ],
+        "videos":"https://www.youtube.com/watch?v=jfK26ZqdlkY"
+    }
+])
