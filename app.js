@@ -59,6 +59,10 @@ app.get('/works',(req,res) => {
     else if(req.query.worktype){
         condition = {worktype:req.query.worktype}
     }
+    //get work on basis of wname
+    else if(req.query.wname){
+        condition = {wname:req.query.wname}
+    }
    
     db.collection('works').find(condition).toArray((err,result) => {
         if(err) throw err;
