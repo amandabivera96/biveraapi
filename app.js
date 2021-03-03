@@ -48,10 +48,10 @@ app.get('/features',(req,res) => {
     })
 })
 
-//work details
+//rest details
 app.get('/works/:wname',(req,res) =>{
     var wname=req.params.wname;
-    db.collection('restaurant').find({wname:wname).toArray((err,result)=>{
+    db.collection('works').find({wname:wname}).toArray((err,result)=>{
         if(err) throw err;
         res.send(result);
     });
