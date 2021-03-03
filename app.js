@@ -48,6 +48,15 @@ app.get('/features',(req,res) => {
     })
 })
 
+//work details
+app.get('/works/:wname',(req,res) =>{
+    var wname=req.params.wname;
+    db.collection('restaurant').find({wname:wname).toArray((err,result)=>{
+        if(err) throw err;
+        res.send(result);
+    });
+});
+
 //work route
 app.get('/works',(req,res) => {
     var condition={};
