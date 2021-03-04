@@ -1,0 +1,27 @@
+db.portfolio.insertMany([
+    {
+        "_id":"1",
+        "type":"CANDID WEDDING PHOTOGRAPHY",
+        "description":"Our Candid’s would perfectly add color to the moments of the day and your look would be mesmerized. We select the trending patterns and innovate, new means especially to suit you at its best."
+    },
+    {
+        "_id":"2",
+        "type":"TRADITIONAL WEDDING PHOTOGRAPHY",
+        "description":"We are equipped with latest technologies and we offer brilliant magical touch in your wedding photography. With us let’s together give a story structure to each moment in your wedding day."
+    },
+    {
+        "_id":"3",
+        "type":"MATERNITY & KIDS PHOTOGRAPHY",
+        "description":"Our talent in special photography will bind all the giggles and chuckles of your kids and bring life to your motions. Our cameras speak best to your kids to make me like prince and princess for you."
+    },
+    {
+        "_id":"4",
+        "type":"CINEMATIC WEDDING PHOTOGRAPHY",
+        "description":"We will fulfill your dream of making the wedding a real film with a flow of expressions and love. We execute the chemistry between you and your partner with apt features, frames, and actions."
+    },
+    {
+        "_id":"5",
+        "type":"PRODUCT PHOTOGRAPHY",
+        "description":"Perfecon and magnificence are what makes us stand out from others. We chose rich and tremendous patterns rare normal ones, giving your product a new look and feel."
+    }
+])

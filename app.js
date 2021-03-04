@@ -48,6 +48,14 @@ app.get('/features',(req,res) => {
     })
 })
 
+//portfolio route
+app.get('/portfolio',(req,res) => {
+    db.collection('portfolio').find().toArray((err,result)=>{
+        if(err) throw err;
+        res.send(result);
+    })
+})
+
 //rest details
 app.get('/works/:wname',(req,res) =>{
     var wname=req.params.wname;
