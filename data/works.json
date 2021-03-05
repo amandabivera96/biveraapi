@@ -115,5 +115,14 @@ db.works.insertMany([
         "photo2":"https://i.imgur.com/qoD5mxQ.jpg",
         "photo3":"https://i.imgur.com/XspkEF1.jpg",
         "photo4":"https://i.imgur.com/P2qjMFB.jpg"
+    },
+    {
+        "_id":"14",
+        "worktype":"Engagement",
+        "wname":"Delmi-Aaron | Engagement",
+        "photo1":"https://i.imgur.com/OZD1Hes.jpg",
+        "photo2":"https://i.imgur.com/0BazSdR.jpg",
+        "photo3":"https://i.imgur.com/Q9xZft0.jpg",
+        "photo4":"https://i.imgur.com/fM3FjhB.jpg"
     }
 ])
