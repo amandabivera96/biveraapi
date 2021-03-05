@@ -56,7 +56,15 @@ app.get('/portfolio',(req,res) => {
     })
 })
 
-//rest details
+//to get all work types
+app.get('/allworks',(req,res) => {
+    db.collection('worktype').find().toArray((err,result)=>{
+        if(err) throw err;
+        res.send(result);
+    })
+})
+
+//work details
 app.get('/works/:wname',(req,res) =>{
     var wname=req.params.wname;
     db.collection('works').find({wname:wname}).toArray((err,result)=>{

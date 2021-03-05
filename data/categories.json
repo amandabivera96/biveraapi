@@ -19,9 +19,11 @@ db.categories.insertMany([
     },
      {
         "_id":"4",
-        "name": "Reception",
+        "name": "Wedding Eve",
         "cateimg":"",
-        "description":"A wedding reception may be a party typically control once the completion of a wedding ceremony as cordial reception for those that have attended the marriage, thence the name reception: the couple receive society, within the style of family and friends, for the primary time as a marriage. Hosts give their selection of food and drink, though a marriage cake is common. amusing guests once a marriage ceremony is ancient in most societies, and may last anyplace from half an hour to several hours or maybe days. Most wedding receptions area unit created within the evening for dinner but, the couple could want a tiffing, brunch, or maybe meal. Ultimately the marriage chooses the small print and placement of the reception."
+        "description":"The wedding eve witness many celebrations which are all part of a rich tradition and culture. Celebrations will be there in both the houses – the bride and the groom. Usually, the functions associated with the wedding eve starts from 6 O’ Clock and will last up to midnight.
+
+        The major highlight of wedding eve is the ‘Madhuram Killal’ function. The parents, family members and friends of the bride and groom will give sweets to them. the ‘Madhuram Killal’ or ‘Sweet Tasting’ ceremony is conducted in a specially arranged area decorated with flowers and hangings. The Godfather of the bride and groom is the responsible person to initiate the ‘Madhuram Killal’ or ‘Sweet Tasting’ function.The ‘Madhuram Killal’ function in a Kerala Latin catholic matrimony is then followed by a delicious treat."
     },
      {
         "_id":"5",

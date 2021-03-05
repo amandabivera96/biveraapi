@@ -1,0 +1,78 @@
+db.features.insertMany([
+    {
+        "_id":"1",
+        "worktype":"Wedding",
+        "photo":"https://i.imgur.com/Er5eUx8.jpg"
+    
+    },
+    {
+        "_id":"2",
+        "worktype":"Engagement",
+        "photo":"https://i.imgur.com/eZJfqRp.jpg"
+    },
+    {
+        "_id":"3",
+        "worktype":"Save the Date",
+        "photo":"https://i.imgur.com/Nr539Gk.jpg"
+    },
+    {
+        "_id":"4",
+        "worktype":"Wedding Eve",
+        "photo":""
+    },
+    {
+        "_id":"5",
+        "worktype":"Post Wedding",
+        "photo":""
+    },
+    {
+        "_id":"6",
+        "worktype":"Christian Wedding",
+        "photo":"",
+    },
+    {
+        "_id":"7",
+        "worktype":"Hindu Wedding",
+        "phot":""
+    },
+    {
+        "_id":"8",
+        "worktype":"Muslim Wedding",
+        "photo":"https://i.imgur.com/CYGgHRf.jpg",
+    },
+    {
+        "_id":"9",
+        "worktype":"Mehendi Wedding",
+        "photo":"https://i.imgur.com/6B3rPqQ.jpg",
+    },
+    {
+        "_id":"10",
+        "worktype":"Baptism",
+        "photo":"https://i.imgur.com/frnPi84.jpg",
+    },
+    {
+        "_id":"11",
+        "worktype":"First Holy Communion",
+        "photo":""
+    },
+    {
+        "_id":"12",
+        "worktype":"Ordination",
+        "photo":""
+    },
+    {
+        "_id":"13",
+        "worktype":"Maternity & Kids",
+        "photo":""
+    },
+    {
+        "_id":"14",
+        "worktype":"Birthday Party",
+        "photo":""
+    },
+    {
+        "_id":"15",
+        "worktype": "Fashion Photography",
+        "photo":""
+    }
+])

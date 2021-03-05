@@ -1,32 +1,119 @@
 db.works.insertMany([
     {
         "_id":"1",
-        "worktype":"Baptism",
-        "wname":"Ryan Xavier",
-        "description":"abcde",
-        "photo1":"https://i.imgur.com/eZJfqRp.jpg",
-        "photo2":"https://i.imgur.com/frnPi84.jpg",
-        "photo3":"https://i.imgur.com/Nr539Gk.jpg",
-        "videos":"https://www.youtube.com/embed/jfK26ZqdlkY"
+        "worktype":"Wedding",
+        "wname":"Bejoy-Meltino | Wedding",
+        "photo1":"https://i.imgur.com/6EXFPwZ.jpg",
+        "photo2":"https://i.imgur.com/FaPs0g7.jpg",
+        "photo3":"https://i.imgur.com/N60ZL5U.jpg",
+        "photo4":"https://i.imgur.com/UeUyyeA.jpg",
     },
     {
         "_id":"2",
-        "worktype":"Wedding",
-        "wname":"Alfrin-Metto",
-        "description":"abcde",
-        "photo1":"https://i.imgur.com/eZJfqRp.jpg",
-        "photo2":"https://i.imgur.com/frnPi84.jpg",
-        "photo3":"https://i.imgur.com/Nr539Gk.jpg",
-        "videos":"https://www.youtube.com/embed/jfK26ZqdlkY"
+        "worktype":"Christian Wedding",
+        "wname":"Bejoy-Meltino | Christian Wedding",
+        "photo1":"https://i.imgur.com/rPBQ8Na.jpg",
+        "photo2":"https://i.imgur.com/Hr07uwq.jpg",
+        "photo3":"https://i.imgur.com/H7PjdcE.jpg",
+        "photo4":"https://i.imgur.com/Lk7jrZF.jpg",
     },
     {
         "_id":"3",
+        "worktype":"Engagement",
+        "wname":"Bejoy-Meltino | Engagement",
+        "photo1":"https://i.imgur.com/M9TkI45.jpg",
+        "photo2":"https://i.imgur.com/1eu05sn.jpg",
+        "photo3":"https://i.imgur.com/mtgQr0P.jpg",
+        "photo4":"https://i.imgur.com/tHfWQac.jpg"
+    },
+    {
+        "_id":"4",
+        "worktype":"Post Wedding",
+        "wname":"Bejoy-Meltino | Post Wedding",
+        "photo1":"https://i.imgur.com/fKH1meU.jpg",
+        "photo2":"https://i.imgur.com/zGHgDkP.jpg",
+        "photo3":"https://i.imgur.com/IhKHA8f.jpg",
+        "photo4":"https://i.imgur.com/CnadeCd.jpg"
+    },
+    {
+        "_id":"5",
+        "worktype":"Wedding Eve",
+        "wname":"Bejoy | Wedding Eve",
+        "photo1":"https://i.imgur.com/bFQRdrB.jpg",
+        "photo2":"https://i.imgur.com/0EdvKr6.jpg",
+        "photo3":"https://i.imgur.com/RuTk6sq.jpg",
+        "photo4":"https://i.imgur.com/yWQ0h2C.jpg"
+    },
+    {
+        "_id":"6",
+        "worktype":"Save the Date",
+        "wname":"Alruby-Maibin | Save the Date",
+        "photo1":"https://i.imgur.com/kCTMG9s.jpg",
+        "photo2":"https://i.imgur.com/zZq0dCk.jpg",
+        "photo3":"https://i.imgur.com/osNb92a.jpg",
+        "photo4":"https://i.imgur.com/9vZU4q7.jpg"
+    },
+    {
+        "_id":"7",
+        "worktype":"Post Wedding",
+        "wname":"Bonita-Wallace | Post Wedding",
+        "photo1":"https://i.imgur.com/WkEskqI.jpg",
+        "photo2":"https://i.imgur.com/3H57eoS.jpg",
+        "photo3":"https://i.imgur.com/hgMDgyM.jpg",
+        "photo4":"https://i.imgur.com/5FH7C0n.jpg"
+    },
+    {
+        "_id":"8",
         "worktype":"Wedding",
-        "wname":"Aldrin-Chaithra",
-        "description":"abcde",
-        "photo1":"https://i.imgur.com/eZJfqRp.jpg",
-        "photo2":"https://i.imgur.com/frnPi84.jpg",
-        "photo3":"https://i.imgur.com/Nr539Gk.jpg",
-        "videos":"https://www.youtube.com/embed/jfK26ZqdlkY"
+        "wname":"Bonita-Shelton | Wedding",
+        "photo1":"https://i.imgur.com/vmnuQ3a.jpg",
+        "photo2":"https://i.imgur.com/UrEj3s0.jpg",
+        "photo3":"https://i.imgur.com/BhnQNTm.jpg",
+        "photo4":"https://i.imgur.com/N2WNKck.jpg"
+    },
+    {
+        "_id":"9",
+        "worktype":"Christian Wedding",
+        "wname":"Bonita-Shelton | Christian Wedding",
+        "photo1":"https://i.imgur.com/5yfytg4.jpg",
+        "photo2":"https://i.imgur.com/pZvlGj1.jpg",
+        "photo3":"https://i.imgur.com/BQyfCRi.jpg",
+        "photo4":"https://i.imgur.com/ppV8nMP.jpg"
+    },
+    {
+        "_id":"10",
+        "worktype":"Wedding",
+        "wname":"Rakesh-Deepa | Wedding",
+        "photo1":"https://i.imgur.com/Fqrq7MH.jpg",
+        "photo2":"https://i.imgur.com/81GhNFJ.jpg",
+        "photo3":"https://i.imgur.com/XQdqgkS.jpg",
+        "photo4":"https://i.imgur.com/TEs5jPW.jpg"
+    },
+    {
+        "_id":"11",
+        "worktype":"Hindu Wedding",
+        "wname":"Rakesh-Deepa | Hindu Wedding",
+        "photo1":"https://i.imgur.com/ahV6GPb.jpg",
+        "photo2":"https://i.imgur.com/m2aP8rV.jpg",
+        "photo3":"https://i.imgur.com/7i1yiPC.jpg",
+        "photo4":"https://i.imgur.com/cqEvlGA.jpg"
+    },
+    {
+        "_id":"12",
+        "worktype":"Christian Wedding",
+        "wname":"Delmi-Aaron | Christian Wedding",
+        "photo1":"https://i.imgur.com/LyYMGdJ.jpg",
+        "photo2":"https://i.imgur.com/YlMfwHH.jpg",
+        "photo3":"https://i.imgur.com/HGBnQXk.jpg",
+        "photo4":"https://i.imgur.com/aOh0KdC.jpg"
+    },
+    {
+        "_id":"13",
+        "worktype":"Wedding",
+        "wname":"Delmi-Aaron | Wedding",
+        "photo1":"https://i.imgur.com/4Q4mVYP.jpg",
+        "photo2":"https://i.imgur.com/qoD5mxQ.jpg",
+        "photo3":"https://i.imgur.com/XspkEF1.jpg",
+        "photo4":"https://i.imgur.com/P2qjMFB.jpg"
     }
 ])
