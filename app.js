@@ -58,7 +58,7 @@ app.get('/portfolio',(req,res) => {
 
 //videos route
 app.get('/videos',(req,res) => {
-    db.collection('videos'),find().toArray((err,result) => {
+    db.collection('videos').find().toArray((err,result) => {
         if(err) throw err;
         res.send(result);
     })
