@@ -69,7 +69,8 @@ db.works.insertMany([
         "photo1":"https://i.imgur.com/vmnuQ3a.jpg",
         "photo2":"https://i.imgur.com/UrEj3s0.jpg",
         "photo3":"https://i.imgur.com/BhnQNTm.jpg",
-        "photo4":"https://i.imgur.com/N2WNKck.jpg"
+        "photo4":"https://i.imgur.com/N2WNKck.jpg",
+        "videos":"https://www.youtube.com/embed/k3Rj1KewmsQ"
     },
     {
         "_id":"9",
@@ -124,5 +125,278 @@ db.works.insertMany([
         "photo2":"https://i.imgur.com/0BazSdR.jpg",
         "photo3":"https://i.imgur.com/Q9xZft0.jpg",
         "photo4":"https://i.imgur.com/fM3FjhB.jpg"
+    },
+    {
+        "_id":"15",
+        "worktype":"Engagement",
+        "wname":"Dr.Rinu-Dr.Alan | Engagement",
+        "photo1":"https://i.imgur.com/C5YxKSx.jpg",
+        "photo2":"https://i.imgur.com/qxWVfpK.jpg",
+        "photo3":"https://i.imgur.com/EFoFYS1.jpg",
+        "photo4":"https://i.imgur.com/Qy50Tmh.jpg"
+    },
+    {
+        "_id":"16",
+        "worktype":"Wedding",
+        "wname":"Dr.Rinu-Dr.Alan | Wedding",
+        "photo1":"https://i.imgur.com/q3kf2Ci.jpg",
+        "photo2":"https://i.imgur.com/VpSXhwf.jpg",
+        "photo3":"https://i.imgur.com/Zp7Rwa9.jpg",
+        "photo4":"https://i.imgur.com/F9kzpOo.jpg"
+    },
+    {
+        "_id":"17",
+        "worktype":"Post Wedding",
+        "wname":"Dr.Rinu-Dr.Alan | Post Wedding",
+        "photo1":"https://i.imgur.com/LMdT1tf.jpg",
+        "photo2":"https://i.imgur.com/tEWL0Vm.jpg",
+        "photo3":"https://i.imgur.com/QkBrbyN.jpg",
+        "photo4":"https://i.imgur.com/A01ZIED.jpg"
+    },
+    {
+        "_id":"18",
+        "worktype":"First Holy Communion",
+        "wname":"Abigail | First Holy Communion",
+        "photo1":"https://i.imgur.com/0ngrDf7.jpg",
+        "photo2":"https://i.imgur.com/H2FbXBa.jpg",
+        "photo3":"https://i.imgur.com/b79EIPB.jpg",
+        "photo4":"https://i.imgur.com/sZf5P2F.jpg"
+    },
+    {
+        "_id":"19",
+        "worktype":"First Holy Communion",
+        "wname":"Joyann | First Holy Communion",
+        "photo1":"https://i.imgur.com/K1Z2KRj.jpg",
+        "photo2":"https://i.imgur.com/BTmtBbB.jpg",
+        "photo3":"https://i.imgur.com/qIxHcpc.jpg",
+        "photo4":"https://i.imgur.com/yD8EaPz.jpg"
+    },
+    {
+        "_id":"20",
+        "worktype":"Baptism",
+        "wname":"Rebecca | Baptism",
+        "photo1":"https://i.imgur.com/bxTwfVN.jpg",
+        "photo2":"https://i.imgur.com/4PXCVPb.jpg",
+        "photo3":"https://i.imgur.com/OqiYQLO.jpg",
+        "photo4":"https://i.imgur.com/NTAy1lZ.jpg"
+    },
+    {
+        "_id":"21",
+        "worktype":"Engagement",
+        "wname":"Roger-Jyothira| Engagement",
+        "photo1":"https://i.imgur.com/F2q2PZV.jpg",
+        "photo2":"https://i.imgur.com/EaZjKKg.jpg",
+        "photo3":"https://i.imgur.com/qAquFKK.jpg",
+        "photo4":"https://i.imgur.com/qcC3Sii.jpg"
+    },
+    {
+        "_id":"22",
+        "worktype":"Post Wedding",
+        "wname":"Roger-Jyothira | Post Wedding",
+        "photo1":"https://i.imgur.com/gpcO2Lv.jpg",
+        "photo2":"https://i.imgur.com/aPLLaZx.jpg",
+        "photo3":"https://i.imgur.com/CYc5QjF.jpg",
+        "photo4":"https://i.imgur.com/Pir2uVs.jpg",
+        "videos":"https://www.youtube.com/embed/ghaEfJBTIYA"
+    },
+    {
+        "_id":"23",
+        "worktype":"Wedding",
+        "wname":"Roger-Jyothira | Wedding",
+        "photo1":"https://i.imgur.com/Vi7T5zP.jpg",
+        "photo2":"https://i.imgur.com/8KW3VIv.jpg",
+        "photo3":"https://i.imgur.com/vvgPj7s.jpg",
+        "photo4":"https://i.imgur.com/Cfd1BtE.jpg"
+    },
+    {
+        "_id":"24",
+        "worktype":"Baptism",
+        "wname":"Rozanne | Baptism",
+        "photo1":"https://i.imgur.com/RZum91e.jpg",
+        "photo2":"https://i.imgur.com/FJTPYhb.jpg",
+        "photo3":"https://i.imgur.com/1J9Zpxg.jpg",
+        "photo4":"https://i.imgur.com/J9Cj6NS.jpg"
+    },
+    {
+        "_id":"25",
+        "worktype":"Post Wedding",
+        "wname":"Shaine-Manju | Post Wedding",
+        "photo1":"https://i.imgur.com/3wu7m1B.jpg",
+        "photo2":"https://i.imgur.com/YiMcjSV.jpg",
+        "photo3":"https://i.imgur.com/TdmkEWc.jpg",
+        "photo4":"https://i.imgur.com/Qlt4lVC.jpg"
+    },
+    {
+        "_id":"26",
+        "worktype":"Engagement",
+        "wname":"Vineeth-Greeshma | Engagement",
+        "photo1":"https://i.imgur.com/kRR4Zay.jpg",
+        "photo2":"https://i.imgur.com/eyVSImQ.jpg",
+        "photo3":"https://i.imgur.com/ljAae6n.jpg",
+        "photo4":"https://i.imgur.com/N3qGKF2.jpg"
+    },
+    {
+        "_id":"27",
+        "worktype":"Wedding",
+        "wname":"Vineeth-Greeshma | Wedding",
+        "photo1":"https://i.imgur.com/6GTo6iJ.jpg",
+        "photo2":"https://i.imgur.com/dv1TMqG.jpg",
+        "photo3":"https://i.imgur.com/dXYuxaw.jpg",
+        "photo4":"https://i.imgur.com/GLYrisq.jpg"
+    },
+    {
+        "_id":"28",
+        "worktype":"Birthday Party",
+        "wname":"Mattammachi 100th | Birthday Party",
+        "photo1":"https://i.imgur.com/VWwMMlB.jpg",
+        "photo2":"https://i.imgur.com/0HcHo2D.jpg",
+        "photo3":"https://i.imgur.com/8ZF1wT3.jpg",
+        "photo4":"https://i.imgur.com/oPYyaXl.jpg"
+    },
+    {
+        "_id":"29",
+        "worktype":"Ordination",
+        "wname":"Fr.Tom Golden Jubilee | Ordination",
+        "photo1":"https://i.imgur.com/DmMNace.jpg",
+        "photo2":"https://i.imgur.com/uuEZHH9.jpg",
+        "photo3":"https://i.imgur.com/8fPiMfM.jpg",
+        "photo4":"https://i.imgur.com/mlA4Ryo.jpg"
+    },
+    {
+        "_id":"30",
+        "worktype":"Mehendi Wedding",
+        "wname":"Afna | Mehendi Wedding",
+        "photo1":"https://i.imgur.com/euEmm5F.jpg",
+        "photo2":"https://i.imgur.com/zMl7KV8.jpg",
+        "photo3":"https://i.imgur.com/IcQAild.jpg",
+        "photo4":"https://i.imgur.com/Qdr5R9w.jpg"
+    },
+    {
+        "_id":"31",
+        "worktype":"Muslim Wedding",
+        "wname":"Afna-Nizam | Muslim Wedding",
+        "photo1":"https://i.imgur.com/ZjMykaS.jpg",
+        "photo2":"https://i.imgur.com/JpY7s6m.jpg",
+        "photo3":"https://i.imgur.com/WAPXPpe.jpg",
+        "photo4":"https://i.imgur.com/mW5FCAe.jpg"
+    },
+    {
+        "_id":"32",
+        "worktype":"Christian Wedding",
+        "wname":"Amelya-Leslie | christian Wedding",
+        "photo1":"https://i.imgur.com/AZL8JgN.jpg",
+        "photo2":"https://i.imgur.com/g8P8HKW.jpg",
+        "photo3":"https://i.imgur.com/WynVPiB.jpg",
+        "photo4":"https://i.imgur.com/9YsUA6m.jpg"
+    },
+    {
+        "_id":"33",
+        "worktype":"Baptism",
+        "wname":"Bernadatte | Baptism",
+        "photo1":"https://i.imgur.com/FIdzM9E.jpg",
+        "photo2":"https://i.imgur.com/lBaYOGV.jpg",
+        "photo3":"https://i.imgur.com/ofsovqM.jpg",
+        "photo4":"https://i.imgur.com/QFV5ue7.jpg"
+    },
+    {
+        "_id":"34",
+        "worktype":"Engagement",
+        "wname":"Bonita-Shelton | Engagement",
+        "photo1":"https://i.imgur.com/YpOfRPf.jpg",
+        "photo2":"https://i.imgur.com/AG4dSJP.jpg",
+        "photo3":"https://i.imgur.com/ffUKXOt.jpg",
+        "photo4":"https://i.imgur.com/ILGSStJ.jpg"
+    },
+    {
+        "_id":"35",
+        "worktype":"Save the Date",
+        "wname":"Bonita-Shelton| Save the Date",
+        "photo1":"https://i.imgur.com/6KbEdhG.jpg",
+        "photo2":"https://i.imgur.com/4VKgPwU.jpg",
+        "photo3":"https://i.imgur.com/X83cYRs.jpg",
+        "photo4":"https://i.imgur.com/Kggzw4G.jpg",
+        "videos":"https://www.youtube.com/embed/41aERIxekTQ"
+    },
+    {
+        "_id":"36",
+        "worktype":"Wedding",
+        "wname":"Jeffry-Samantha | Wedding",
+        "photo1":"https://i.imgur.com/LDhqqdx.jpg",
+        "photo2":"https://i.imgur.com/9w0ipxd.jpg",
+        "photo3":"https://i.imgur.com/GccJtxJ.jpg",
+        "photo4":"https://i.imgur.com/w42k20V.jpg"
+    },
+    {
+        "_id":"37",
+        "worktype":"Christian Wedding",
+        "wname":"Jeffry-Samantha | Christian Wedding",
+        "photo1":"https://i.imgur.com/sTLHJJ9.jpg",
+        "photo2":"https://i.imgur.com/feIuNhW.jpg",
+        "photo3":"https://i.imgur.com/ViQJjee.jpg",
+        "photo4":"https://i.imgur.com/7urfnwQ.jpg"
+    },
+    {
+        "_id":"38",
+        "worktype":"Wedding",
+        "wname":"Welna-Morton | Wedding",
+        "photo1":"https://i.imgur.com/c2UPMqp.jpg",
+        "photo2":"https://i.imgur.com/EMBr2DC.jpg",
+        "photo3":"https://i.imgur.com/Q0v5KF9.jpg",
+        "photo4":"https://i.imgur.com/DnNi6RZ.jpg",
+        "videos":"https://www.youtube.com/embed/jfK26ZqdlkY"
+    },
+    {
+        "_id":"39",
+        "worktype":"Save the Date",
+        "wname":"Welna-Morton | Save the Date",
+        "photo1":"https://i.imgur.com/jPShcWr.jpg",
+        "photo2":"https://i.imgur.com/LPBAlc6.jpg",
+        "photo3":"https://i.imgur.com/LIl2Szz.jpg",
+        "photo4":"https://i.imgur.com/yDpHCUP.jpg"
+    },
+    {
+        "_id":"40",
+        "worktype":"Maternity and Kids",
+        "wname":"Nimmy-Jomon | Maternity and Kids",
+        "photo1":"https://i.imgur.com/Lt39HtS.jpg",
+        "photo2":"https://i.imgur.com/wUp5oPh.jpg",
+        "photo3":"https://i.imgur.com/84DWEMi.jpg",
+        "photo4":"https://i.imgur.com/TZDbRmX.jpg"
+    },
+    {
+        "_id":"41",
+        "worktype":"Fashion Photography",
+        "wname":"Benoy D'souza | Fashion Photography",
+        "photo1":"https://i.imgur.com/u814ItB.jpg",
+        "photo2":"https://i.imgur.com/1MqZ5tv.jpg",
+        "photo3":"https://i.imgur.com/wTX8tS3.jpg",
+        "photo4":"https://i.imgur.com/fy3tNVw.jpg"
+    },
+    {
+        "_id":"42",
+        "worktype":"Fashion Photography",
+        "wname":"Nivin Nardo | Fashion Photography",
+        "photo1":"https://i.imgur.com/CM4SYot.jpg",
+        "photo2":"https://i.imgur.com/DyUhORv.jpg",
+        "photo3":"https://i.imgur.com/qKhGaYx.jpg",
+        "photo4":"https://i.imgur.com/TfzrI2F.jpg"
+    },
+    {
+        "_id":"43",
+        "worktype":"Fashion Photography",
+        "wname":"Kristen Antony | Fashion Photography",
+        "photo1":"https://i.imgur.com/28G8OMY.jpg",
+        "photo2":"https://i.imgur.com/BQDk6XM.jpg",
+        "photo3":"https://i.imgur.com/lcXQ8ru.jpg",
+        "photo4":"https://i.imgur.com/A9KnydC.jpg"
+    },
+    {
+        "_id":"44",
+        "worktype":"Fashion Photography",
+        "wname":"Joe | Fashion Photography",
+        "photo1":"https://i.imgur.com/eX5eVtX.jpg",
+        "photo2":"https://i.imgur.com/rpauw51.jpg",
+        "photo3":"https://i.imgur.com/Yf6ebM8.jpg",
+        "photo4":"https://i.imgur.com/S8FJoPi.jpg"
     }
 ])

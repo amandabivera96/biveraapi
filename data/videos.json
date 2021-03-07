@@ -1,0 +1,37 @@
+db.videos.insertMany([
+    {
+        "_id":"1",
+        "videos":"https://www.youtube.com/embed/41aERIxekTQ",
+        "wname":"Bonita-Shelton| Save the Date"
+    },
+    {
+        "_id":"2",
+        "videos":"https://www.youtube.com/embed/jfK26ZqdlkY",
+        "wname":"Welna-Morton | Wedding"
+    },
+    {
+        "_id":"3",
+        "videos":"https://www.youtube.com/embed/ghaEfJBTIYA",
+        "wname":"Roger-Jyothira | Post Wedding"
+    },
+    {
+        "_id":"4",
+        "videos":"https://www.youtube.com/embed/k3Rj1KewmsQ",
+        "wname":"Bonita-Shelton | Wedding"
+    },
+    {
+        "_id":"5",
+        "videos":"https://www.youtube.com/embed/bz-dUg3uRhQ",
+        "wname":"Nevin-Dilna | Wedding"
+    },
+    {
+        "_id":"6",
+        "videos":"https://www.youtube.com/embed/VzLMoI-_Jc8",
+        "wname":"Alitta-Alfy | Save the Date"
+    },
+    {
+        "_id":"7",
+        "videos":"https://www.youtube.com/embed/W0PBXgglec0",
+        "wname":"Denver-Joan | Wedding"
+    }
+])

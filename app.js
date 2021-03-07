@@ -56,6 +56,14 @@ app.get('/portfolio',(req,res) => {
     })
 })
 
+//videos route
+app.get('/videos',(req,res) => {
+    db.collection('videos'),find().toArray((err,result) => {
+        if(err) throw err;
+        res.send(result);
+    })
+})
+
 //to get all work types
 app.get('/allworks',(req,res) => {
     db.collection('worktype').find().toArray((err,result)=>{

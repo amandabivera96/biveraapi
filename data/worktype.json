@@ -2,68 +2,68 @@ db.features.insertMany([
     {
         "_id":"1",
         "worktype":"Wedding",
-        "photo":"https://i.imgur.com/Er5eUx8.jpg"
+        "photo":"https://i.imgur.com/qPEEICm.jpg"
     
     },
     {
         "_id":"2",
         "worktype":"Engagement",
-        "photo":"https://i.imgur.com/eZJfqRp.jpg"
+        "photo":"https://i.imgur.com/OCfL78o.jpg"
     },
     {
         "_id":"3",
         "worktype":"Save the Date",
-        "photo":"https://i.imgur.com/Nr539Gk.jpg"
+        "photo":"https://i.imgur.com/cCzyo9A.jpg"
     },
     {
         "_id":"4",
         "worktype":"Wedding Eve",
-        "photo":""
+        "photo":"https://i.imgur.com/bFQRdrB.jpg"
     },
     {
         "_id":"5",
         "worktype":"Post Wedding",
-        "photo":""
+        "photo":"https://i.imgur.com/3wu7m1B.jpg"
     },
     {
         "_id":"6",
         "worktype":"Christian Wedding",
-        "photo":"",
+        "photo":"https://i.imgur.com/z7U4Dvo.jpg"
     },
     {
         "_id":"7",
         "worktype":"Hindu Wedding",
-        "phot":""
+        "photo":"https://i.imgur.com/NQErTW4.jpg"
     },
     {
         "_id":"8",
         "worktype":"Muslim Wedding",
-        "photo":"https://i.imgur.com/CYGgHRf.jpg",
+        "photo":"https://i.imgur.com/OCr6JhQ.jpg"
     },
     {
         "_id":"9",
         "worktype":"Mehendi Wedding",
-        "photo":"https://i.imgur.com/6B3rPqQ.jpg",
+        "photo":"https://i.imgur.com/4cKWUSI.jpg"
     },
     {
         "_id":"10",
         "worktype":"Baptism",
-        "photo":"https://i.imgur.com/frnPi84.jpg",
+        "photo":"https://i.imgur.com/lvxBk0w.jpg"
     },
     {
         "_id":"11",
         "worktype":"First Holy Communion",
-        "photo":""
+        "photo":"https://i.imgur.com/caHWkYf.jpg"
     },
     {
         "_id":"12",
         "worktype":"Ordination",
-        "photo":""
+        "photo":"https://i.imgur.com/bxJvSqv.jpg"
     },
     {
         "_id":"13",
-        "worktype":"Maternity & Kids",
-        "photo":""
+        "worktype":"Maternity and Kids",
+        "photo":"https://i.imgur.com/Lt39HtS.jpg"
     },
     {
         "_id":"14",
@@ -73,6 +73,6 @@ db.features.insertMany([
     {
         "_id":"15",
         "worktype": "Fashion Photography",
-        "photo":""
+        "photo":"https://i.imgur.com/S8FJoPi.jpg"
     }
 ])
