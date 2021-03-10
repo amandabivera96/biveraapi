@@ -68,7 +68,7 @@ db.features.insertMany([
     {
         "_id":"14",
         "worktype":"Birthday Party",
-        "photo":""
+        "photo":"https://i.imgur.com/Z67Ea6G.jpg"
     },
     {
         "_id":"15",

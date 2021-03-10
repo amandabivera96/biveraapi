@@ -398,5 +398,14 @@ db.works.insertMany([
         "photo2":"https://i.imgur.com/rpauw51.jpg",
         "photo3":"https://i.imgur.com/Yf6ebM8.jpg",
         "photo4":"https://i.imgur.com/S8FJoPi.jpg"
+    },
+    {
+        "_id":"45",
+        "worktype":"Birthday Party",
+        "wname":"Cyril Bivera 90th | Birthday Party",
+        "photo1":"https://i.imgur.com/Z67Ea6G.jpg",
+        "photo2":"https://i.imgur.com/9bm3xSB.jpg",
+        "photo3":"https://i.imgur.com/Ud6jFAc.jpg",
+        "photo4":"https://i.imgur.com/Vl1i2BG.jpg"
     }
 ])

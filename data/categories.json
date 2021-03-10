@@ -82,7 +82,7 @@ db.categories.insertMany([
     {
         "_id":"14",
         "name": "Birthday Party",
-        "cateimg":"",
+        "cateimg":"https://i.imgur.com/Z67Ea6G.jpg",
         "description":"Birthday events are an extremely good raise to any infant's shallowness. Making them sense like kings (or queens) for the day is one of the exceptional (and most lasting) gifts you may deliver them."
     },
     {
